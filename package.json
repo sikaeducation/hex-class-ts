@@ -4,7 +4,8 @@
   "description": "Create a class Hex which takes a number as an argument.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
