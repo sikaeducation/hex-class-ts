@@ -12,7 +12,7 @@ describe("Hex", () => {
     it("evaluates to a decimal", () => {
       const FF = new Hex(255)
 
-      expect(FF + 1).toEqual(256)
+      expect(+FF + 1).toEqual(256)
     })
   })
   describe("#toJSON", () => {
