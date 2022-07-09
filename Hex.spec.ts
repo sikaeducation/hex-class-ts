@@ -1,4 +1,4 @@
-const { Hex } = require("./index")
+import Hex from "./Hex"
 
 describe("Hex", () => {
   describe("#toString", () => {
