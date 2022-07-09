@@ -1,0 +1,15 @@
+{
+  "name": "hex-class",
+  "version": "1.0.0",
+  "description": "Create a class Hex which takes a number as an argument.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
+}
