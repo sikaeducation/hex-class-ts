@@ -19,7 +19,7 @@ describe("Hex", () => {
     it("generates JSON string", () => {
       const FF = new Hex(255)
 
-      expect(FF.toJSON()).toEqual("0xFF")
+      expect(FF.toJSON()).toEqual("\"0xFF\"")
     })
   })
   describe("#minus", () => {
@@ -31,7 +31,7 @@ describe("Hex", () => {
     it("subtracts instances", () => {
       const FF = new Hex(255)
 
-      expect(FF.minus(FF).valueOf()).toEqual(0)
+      expect(FF.minus(+FF).valueOf()).toEqual(0)
     })
   })
   describe("#plus", () => {
