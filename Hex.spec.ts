@@ -31,7 +31,7 @@ describe("Hex", () => {
     it("subtracts instances", () => {
       const FF = new Hex(255)
 
-      expect(FF.minus(FF).valueOf()).toEqual(0)
+      expect(FF.minus(+FF).valueOf()).toEqual(0)
     })
   })
   describe("#plus", () => {
