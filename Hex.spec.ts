@@ -15,11 +15,11 @@ describe("Hex", () => {
       expect(+FF + 1).toEqual(256)
     })
   })
-  describe("#toJSON", () => {
+  describe.only("#toJSON", () => {
     it("generates JSON string", () => {
       const FF = new Hex(255)
 
-      expect(FF.toJSON()).toEqual("0xFF")
+      expect(FF.toJSON()).toEqual("\"0xFF\"")
     })
   })
   describe("#minus", () => {
