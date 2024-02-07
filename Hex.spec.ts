@@ -15,7 +15,7 @@ describe("Hex", () => {
       expect(+FF + 1).toEqual(256)
     })
   })
-  describe.only("#toJSON", () => {
+  describe("#toJSON", () => {
     it("generates JSON string", () => {
       const FF = new Hex(255)
 
